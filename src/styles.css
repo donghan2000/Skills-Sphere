@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+   url("./fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: Medium;
+  }
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+*{
+    -ms-overflow-style: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+html,
+body,
+#root
+{ 
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+.canvas{
+  width: 100%;
+  height: 100vh;
+}
